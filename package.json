@@ -1,0 +1,26 @@
+{
+  "name": "projectOne",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parse": "^0.1.0",
+    "crypt": "0.0.2",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "js": "^0.1.0",
+    "mongoose": "^5.4.0",
+    "mongoose-bcrypt": "^1.6.0",
+    "mongoose-unique-validator": "^2.0.2",
+    "validator": "^10.9.0"
+  }
+}
